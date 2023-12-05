@@ -4,7 +4,7 @@
 3. спуливаем:               **docker pull antuanuran/api**
 4. docker-compose:          **docker-compose up -d**
 
-5. Устанавливаем Docker и Docker-compose.
+5. Устанавливаем Docker и Docker-compose:  
 ### Установка Docker:
 curl -fsSL https://get.docker.com -o get-docker.sh  
 sh get-docker.sh
