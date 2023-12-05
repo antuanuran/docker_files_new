@@ -1,0 +1,15 @@
+name: ci-cd
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: repo
+        run: echo "nakrasava"
